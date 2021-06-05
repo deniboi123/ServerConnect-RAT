@@ -1,2 +1,2 @@
 # ServerConnect-RAT
-SCR is a RAT designed to steal chrome passwords and send them. Ill add way more features but this is what it is.
+SCR is a RAT designed to steal chrome passwords and send them. Ill add way more features but this is what it is. To sum up the code for skids, the code basically does some variables for the strings that we need later, then we set up ```MyFunction()``` else VS2019 will complain about that its not in a ```private void``` function. We do a ```while (true)``` loop to check if the server wants us to send chrome passwords, if it does we can send it using a GET request and hope for the best.
